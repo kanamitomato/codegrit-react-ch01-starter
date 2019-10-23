@@ -8,8 +8,8 @@ import * as serviceWorker from './serviceWorker';
 
 const elements = (
     <div>
-        <h1><App/><AppWithProps/></h1>
-        <h1><AppTwo/></h1>
+        <App/><AppWithProps/>
+        <AppTwo/>
     </div>
 )
 
