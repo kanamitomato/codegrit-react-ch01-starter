@@ -1,9 +1,9 @@
-import { createElement, Component } from 'react';
+import React, { Component } from 'react';
 
 class App extends Component {
   render() {
-    const h1 = createElement('h1', null, 'これは一つ目のアプリです。');
-    return h1;
+    const sentence = `これは一つ目のアプリです。今日は${this.props.currentTime}`;
+    return React.createElement('h1', null, sentence);
   }
 }
 
